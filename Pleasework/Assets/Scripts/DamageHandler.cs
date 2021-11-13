@@ -6,7 +6,7 @@ public class DamageHandler : MonoBehaviour
 {
     private float health = 10;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         switch(other.gameObject.tag)
         {
