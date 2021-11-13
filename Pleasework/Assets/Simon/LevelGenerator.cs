@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    [HideInInspector] public GameObject player = null;
+    [HideInInspector] public GameObject cameraGO = null;
 
     [SerializeField] private Level[] levels = null;
     private GameObject currentLevel = null;
@@ -17,17 +17,17 @@ public class LevelGenerator : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        cameraGO = GameObject.FindGameObjectWithTag("MainCamera");
 
         StartGeneration();
 
-        if (player == null) Debug.LogError("Could not find the player gameobject by tag. does the player have the Player tag? :)))");
+        if (cameraGO == null) Debug.LogError("Could not find the player gameobject by tag. does the player have the Player tag? :)))");
     }
 
 
     private void Update()
     {
-        distToNextLevel = player.transform.position.x - endPosition.x;
+        distToNextLevel = cameraGO.transform.position.x - endPosition.x;
         Debug.Log(distToNextLevel);
 
         if (distToNextLevel >= -nextLevelDistance)
