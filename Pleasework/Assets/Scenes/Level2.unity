@@ -325,6 +325,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5671176370790341616, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
+      propertyPath: jumps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671176370790341616, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
+      propertyPath: jumpForce
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 7713711471293226963, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -370,8 +378,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7713711471293226965, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
-      propertyPath: m_Constraints
-      value: 4
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7713711471293226967, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
       propertyPath: m_Name

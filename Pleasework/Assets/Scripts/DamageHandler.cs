@@ -19,15 +19,6 @@ public class DamageHandler : MonoBehaviour
         }
     }
 
-    Rigidbody m_Rigidbody;
-    public float m_Speed = 5f;
-
-    void Start()
-    {
-        //Fetch the Rigidbody from the GameObject with this script attached
-        m_Rigidbody = GetComponent<Rigidbody>();
-    }
-
     void TakeDamage()
     {
         Debug.Log("DAMAGE TAKEN");
