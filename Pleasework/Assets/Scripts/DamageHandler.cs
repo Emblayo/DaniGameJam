@@ -13,6 +13,9 @@ public class DamageHandler : MonoBehaviour
             case "Chaser":
                 Die();
                 break;
+            case "Enemy":
+                TakeDamage();
+                break;
         }
     }
 
@@ -27,7 +30,7 @@ public class DamageHandler : MonoBehaviour
 
     void TakeDamage()
     {
-
+        Debug.Log("DAMAGE TAKEN");
     }
 
     void Die()

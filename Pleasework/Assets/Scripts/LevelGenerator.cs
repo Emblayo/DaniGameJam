@@ -28,7 +28,7 @@ public class LevelGenerator : MonoBehaviour
     private void Update()
     {
         distToNextLevel = cameraGO.transform.position.x - endPosition.x;
-        Debug.Log(distToNextLevel);
+        //Debug.Log(distToNextLevel);
 
         if (distToNextLevel >= -nextLevelDistance)
         {
