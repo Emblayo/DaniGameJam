@@ -10,6 +10,7 @@ public class FetchScoreScript : MonoBehaviour
 
     float finalScore;
     ScoreSystem scoreScript;
+    GameObject scoreObject;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,9 @@ public class FetchScoreScript : MonoBehaviour
         scoreScript = GameObject.FindGameObjectWithTag("ScoreText").GetComponent<ScoreSystem>();
         finalScore = scoreScript.score;
         finalScoreText.text = "SCORE: " + Mathf.RoundToInt(finalScore);
+
+        scoreObject = GameObject.FindGameObjectWithTag("ScoreText");
+        Destroy(scoreObject);
     }
 
     // Update is called once per frame
