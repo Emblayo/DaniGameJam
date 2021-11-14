@@ -1151,6 +1151,12 @@ MonoBehaviour:
   cameraGO: {fileID: 0}
   levels:
   - {fileID: 802229826727239995, guid: 949ee23347cae444081be69179b17026, type: 3}
+  - {fileID: 802229826727239995, guid: 210a532ce6774ef469f9467499b89ff4, type: 3}
+  - {fileID: 802229826727239995, guid: 8d684dc8ed661ed4ebcf934bd7b64911, type: 3}
+  - {fileID: 802229826727239995, guid: ec1cd11d322120644bbbe0f330f906e9, type: 3}
+  - {fileID: 802229826727239995, guid: af26d6a0d4788084e8e6daae7195b1fc, type: 3}
+  - {fileID: 802229826727239995, guid: 70eaa4891ed6ec74b957931df5cb37c8, type: 3}
+  - {fileID: 802229826727239995, guid: 14a3f7506c9c1ad4ea06d69ae3931b3b, type: 3}
   nextLevelDistance: 11
 --- !u!4 &2020136798
 Transform:
