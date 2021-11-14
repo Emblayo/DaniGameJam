@@ -13,10 +13,14 @@ public class Enemy : MonoBehaviour, IDamageable
 
     public float knockback = 5;
 
-    
+    private ScoreSystem score;
+
+
+    public float points = 10;
 
     private void Start()
     {
+        score = GameObject.FindGameObjectWithTag("ScoreText").GetComponent<ScoreSystem>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -41,6 +45,7 @@ public class Enemy : MonoBehaviour, IDamageable
 
     void Die()
     {
+        score.score += points;
         Destroy(this.gameObject);
     }
 }
