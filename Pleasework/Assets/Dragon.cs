@@ -22,7 +22,7 @@ public class Dragon : Enemy
 
     void Attack()
     {
-        GameObject fireBallInstance = (GameObject)Instantiate(fireBall, new Vector2(transform.position.x - .4f, transform.position.y + .5f), transform.rotation);
+        GameObject fireBallInstance = (GameObject)Instantiate(fireBall, new Vector2(transform.position.x - .4f, transform.position.y + .2f), transform.rotation);
 
         fireBallInstance.GetComponent<Rigidbody2D>().velocity = Vector2.left * fireBallSpeed;
     }
