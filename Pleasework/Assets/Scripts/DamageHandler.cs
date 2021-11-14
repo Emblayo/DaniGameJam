@@ -64,7 +64,8 @@ public class DamageHandler : MonoBehaviour
     IEnumerator KnockbackDuration()
     {
         playerMovement.canMove = false;
-        rb.AddForce(new Vector3(-1, 1, 0) * knockback, ForceMode2D.Impulse);
+        rb.velocity = Vector2.zero;
+        rb.AddForce(new Vector3(-0.6f, 1, 0) * knockback, ForceMode2D.Impulse);
         yield return new WaitForSeconds(stunDuration);
         playerMovement.canMove = true;
     }

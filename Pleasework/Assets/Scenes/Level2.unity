@@ -391,7 +391,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -3407689541593876526, guid: 91b8658d6301d6b40b1cb957d04c8439, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -528,6 +528,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6879577431496875728, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
+      propertyPath: knockback
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671176370790341616, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
+      propertyPath: jumpForce
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7713711471293226963, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -575,14 +583,6 @@ PrefabInstance:
     - target: {fileID: 7713711471293226967, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8801646660900098498, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978889796773459911, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
-      propertyPath: damage
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
@@ -712,7 +712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089111552}
   - component: {fileID: 1089111553}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: colliderCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
