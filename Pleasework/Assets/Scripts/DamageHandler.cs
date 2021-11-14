@@ -36,6 +36,9 @@ public class DamageHandler : MonoBehaviour
             case "Enemy":
                 TakeDamage();
                 break;
+            case "FireBall":
+                TakeDamage();
+                break;
         }
     }
 
