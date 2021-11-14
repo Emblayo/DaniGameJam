@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DamageHandler : MonoBehaviour
 {
@@ -49,6 +50,7 @@ public class DamageHandler : MonoBehaviour
     void Die()
     {
         Destroy(this.gameObject);
+        SceneManager.LoadScene("GameOver", LoadSceneMode.Additive);
     }
 
     void ApplyKnockback()

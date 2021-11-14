@@ -962,6 +962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 5403925484014412475, guid: 8a483aff52c98fa47a782175e1dc95d7, type: 3}
+      propertyPath: m_TagString
+      value: ScoreText
+      objectReference: {fileID: 0}
     - target: {fileID: 7867356434688398756, guid: 8a483aff52c98fa47a782175e1dc95d7, type: 3}
       propertyPath: m_text
       value: 'SCORE: 0000'
