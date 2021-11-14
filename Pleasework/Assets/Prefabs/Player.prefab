@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  jumpForce: 12
+  jumpForce: 6.53
   groundcheckRadius: 1.2
   playerLayer:
     serializedVersion: 2
