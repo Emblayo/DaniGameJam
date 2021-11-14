@@ -193,7 +193,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -100
   m_Sprite: {fileID: 21300000, guid: fd1eb9d76b62e6d49bccf2196a151f6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -607,7 +607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713711471293226963, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 7713711471293226963, guid: c338ec91e6ad88243bb190a2acf7ca13, type: 3}
       propertyPath: m_LocalRotation.w
@@ -721,7 +721,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!224 &1001530053
 RectTransform:
@@ -1064,6 +1064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Smoke
       objectReference: {fileID: 0}
+    - target: {fileID: 8516498012974249559, guid: 9f27d3dd7547ede4189104c2fdc58ba2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8853971220506002559, guid: 9f27d3dd7547ede4189104c2fdc58ba2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1146,7 +1150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraGO: {fileID: 0}
   levels:
-  - {fileID: 802229826727239995, guid: ea1babf57c302c44f99cad4e5e58b90a, type: 3}
+  - {fileID: 802229826727239995, guid: 949ee23347cae444081be69179b17026, type: 3}
   nextLevelDistance: 11
 --- !u!4 &2020136798
 Transform:
