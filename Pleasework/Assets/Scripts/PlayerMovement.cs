@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask playerLayer;
 
     Rigidbody2D rb;
+    public Animator anim;
     float horizontal;
 
     [SerializeField] private int jumps;
@@ -19,11 +20,15 @@ public class PlayerMovement : MonoBehaviour
     Vector2 rightVector = new Vector2(1f, 0f);
     Vector2 leftVector = new Vector2(-1f, 0f);
 
+    public bool canMove = true;
+
     // Start is called before the first frame update
     void Start()
     {
         currentJumps = jumps;
         rb = GetComponent<Rigidbody2D>();
+
+        if (anim == null) Debug.LogError("need to assign the animator in the inspector :)");
     }
 
     // Update is called once per frame
@@ -32,13 +37,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && currentJumps > 0) Jump();
 
         if (IsGrounded()) currentJumps = jumps;
+        anim.SetBool("Grounded", IsGrounded());
 
         horizontal = Input.GetAxisRaw("Horizontal");
     }
 
     private void FixedUpdate()
     {
-        Move();
+       if(canMove) Move();
     }
 
     void Jump()
@@ -60,9 +66,9 @@ public class PlayerMovement : MonoBehaviour
         if (horizontal == 1) transform.rotation = new Quaternion(0, 0, 0, 0);
         if (horizontal == -1) transform.rotation = new Quaternion(0, -180, 0, 0);
 
-
+        if (horizontal == 0) anim.SetBool("Running", false);
+        else anim.SetBool("Running", true);
     }
-
 
     private bool IsGrounded()
     {
@@ -72,8 +78,6 @@ public class PlayerMovement : MonoBehaviour
 
         return true;
     }
-
-
 
 }
 
