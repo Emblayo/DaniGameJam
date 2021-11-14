@@ -53,7 +53,7 @@ public class Melee : MonoBehaviour
         playerMovement.canMove = true;
     }
 
-        private void DealDamage(Collider2D other)
+    private void DealDamage(Collider2D other)
     {
         Debug.Log(other.gameObject.name);
 

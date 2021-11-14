@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 196297717779890364}
   - component: {fileID: 4087005977790038050}
-  - component: {fileID: 2666080952472686275}
   - component: {fileID: 2857432808085039190}
   - component: {fileID: 6351516269326457890}
   - component: {fileID: 7346071990350548582}
+  - component: {fileID: 4993706677214048239}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -86,20 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2666080952472686275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5981397518200158509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f780b6a3056e954ab0144c94f7bc8cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 4
-  canTakeKnockback: 1
 --- !u!61 &2857432808085039190
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -173,3 +159,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5510111, y: 0.040536404}
   m_EdgeRadius: 0
+--- !u!114 &4993706677214048239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5981397518200158509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3c87a2b86c32940a80d9a7155a2309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 4
+  canTakeKnockback: 1
+  canTakeDamage: 1

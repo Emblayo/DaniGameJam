@@ -7,8 +7,13 @@ public class Enemy : MonoBehaviour, IDamageable
     public float health;
 
     [HideInInspector] public bool canTakeKnockback = true;
+    public bool canTakeDamage = true;
 
     Rigidbody2D rb;
+
+    public float knockback = 5;
+
+    
 
     private void Start()
     {
@@ -17,13 +22,21 @@ public class Enemy : MonoBehaviour, IDamageable
 
     void IDamageable.TakeDamage(float dmg)
     {
-        health -= dmg;
+        Knockback();
 
-        //check if dead
-        if (health <= 0) Die();
+        if (canTakeDamage)
+        {
+            health -= dmg;
 
+            //check if dead
+            if (health <= 0) Die();
+        }
+    }
+
+    void Knockback()
+    {
         //apply knockback
-        rb.AddForce((Vector2.up * 5) + (Vector2.right * 5), ForceMode2D.Impulse);
+        rb.AddForce((Vector2.up * knockback) + (Vector2.right * knockback), ForceMode2D.Impulse);
     }
 
     void Die()
