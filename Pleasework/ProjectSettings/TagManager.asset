@@ -8,7 +8,7 @@ TagManager:
   - Enemy
   - Chaser
   - ScoreText
-  - Fireball
+  - FireBall
   layers:
   - Default
   - TransparentFX
@@ -19,7 +19,7 @@ TagManager:
   - Player
   - Camera Bounds
   - Enemy
-  - 
+  - FireBall
   - 
   - 
   - 

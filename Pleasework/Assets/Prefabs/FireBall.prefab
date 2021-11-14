@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5378589051313267047}
   - component: {fileID: 7556584057183779225}
   - component: {fileID: 8005723554213162581}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireBall
-  m_TagString: Fireball
+  m_TagString: FireBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3994266302164122834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.453712, y: 4.163683, z: -4.5384398}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.39362, y: 0.39362, z: 0.39362}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

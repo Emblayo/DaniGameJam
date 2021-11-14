@@ -7,6 +7,12 @@ public class Fireball : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy") return;
-        Destroy(this.gameObject);
+        StartCoroutine(delay());
+    }
+
+    IEnumerator delay()
+    {
+        yield return new WaitForSeconds(0.1f);
+            Destroy(this.gameObject);
     }
 }
