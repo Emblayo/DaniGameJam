@@ -6,11 +6,22 @@ public class Melee : MonoBehaviour
 {
     bool canAttack = true;
 
-    public Transform hitbox; 
+    public Transform hitbox;
+    private Animator anim;
+    private PlayerMovement playerMovement;
 
     public float damage;
+    public float attackDuration;
+    public float stunDuration;
+
 
     [SerializeField] private LayerMask ignorePlayer;
+
+    private void Start()
+    {
+        playerMovement = GetComponent<PlayerMovement>();
+        anim = playerMovement.anim;
+    }
 
     private void Update()
     {
@@ -18,6 +29,9 @@ public class Melee : MonoBehaviour
         {
             if (!canAttack) return;
             StartCoroutine(Attack());
+            StartCoroutine(StunDuration());
+
+            anim.SetTrigger("Attack");
 
             var hit = Physics2D.OverlapBox(hitbox.position, hitbox.localScale / 2, 0, ~ignorePlayer);
 
@@ -28,11 +42,18 @@ public class Melee : MonoBehaviour
     IEnumerator Attack()
     {
         canAttack = false;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(attackDuration);
         canAttack = true;
     }
 
-    private void DealDamage(Collider2D other)
+    IEnumerator StunDuration()
+    {
+        playerMovement.canMove = false;
+        yield return new WaitForSeconds(stunDuration);
+        playerMovement.canMove = true;
+    }
+
+        private void DealDamage(Collider2D other)
     {
         Debug.Log(other.gameObject.name);
 
