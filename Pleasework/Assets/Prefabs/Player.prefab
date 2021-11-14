@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 5671176370790341616}
   - component: {fileID: -6879577431496875728}
   - component: {fileID: 1228571407}
+  - component: {fileID: 7865072344086347753}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -126,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  jumpForce: 6.53
+  jumpForce: 10
   groundcheckRadius: 1.2
   playerLayer:
     serializedVersion: 2
@@ -147,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  knockback: 10
+  knockback: 7
   stunDuration: 0.7
 --- !u!114 &1228571407
 MonoBehaviour:
@@ -168,6 +169,14 @@ MonoBehaviour:
   ignorePlayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!81 &7865072344086347753
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7713711471293226967}
+  m_Enabled: 1
 --- !u!1001 &536137443279119965
 PrefabInstance:
   m_ObjectHideFlags: 0
