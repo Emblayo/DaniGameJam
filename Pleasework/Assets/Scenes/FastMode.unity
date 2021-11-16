@@ -1592,6 +1592,9 @@ MonoBehaviour:
   - {fileID: 802229826727239995, guid: 14a3f7506c9c1ad4ea06d69ae3931b3b, type: 3}
   - {fileID: 802229826727239995, guid: 67e9f949ba183eb48b0354d54fbcfbf7, type: 3}
   - {fileID: 802229826727239995, guid: b7cc592f949ab504da68066631c840a2, type: 3}
+  - {fileID: 802229826727239995, guid: 959bb86c34e379c479c28e12ad154e36, type: 3}
+  - {fileID: 802229826727239995, guid: 6423b8b7e96cc364385a3dc13574ca33, type: 3}
+  - {fileID: 802229826727239995, guid: 20ffb67fe1c7f084f8e0fa50c370e590, type: 3}
   nextLevelDistance: 11
 --- !u!4 &2020136798
 Transform:
