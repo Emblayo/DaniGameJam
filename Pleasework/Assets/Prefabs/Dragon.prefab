@@ -175,6 +175,7 @@ MonoBehaviour:
   canTakeKnockback: 1
   canTakeDamage: 1
   knockback: 0
+  points: 10
   AttackSpeed: 1
-  fireBall: {fileID: 3994266302164122834, guid: 2b0e04f26823607409808274f959480d, type: 3}
+  fireBall: {fileID: 4636469508686591014, guid: cb30b623c76d39046be9c77a6b07afb1, type: 3}
   fireBallSpeed: 5
