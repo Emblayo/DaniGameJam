@@ -6,7 +6,7 @@ public class CameraMover : MonoBehaviour
 {
     public float speed;
 
-    void Update()
+    void FixedUpdate()
     {
         transform.position += Vector3.right * Time.deltaTime * speed;
     }

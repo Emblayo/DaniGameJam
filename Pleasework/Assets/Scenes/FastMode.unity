@@ -1096,7 +1096,7 @@ GameObject:
   - component: {fileID: 1089111553}
   m_Layer: 7
   m_Name: colliderCamera
-  m_TagString: FireBall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586ff23f188e80446ac823e1b3c5ccf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.3
+  speed: 1.2
 --- !u!1001 &1245127540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1583,15 +1583,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraGO: {fileID: 0}
   levels:
+  - {fileID: 802229826727239995, guid: 949ee23347cae444081be69179b17026, type: 3}
   - {fileID: 802229826727239995, guid: 210a532ce6774ef469f9467499b89ff4, type: 3}
   - {fileID: 802229826727239995, guid: 8d684dc8ed661ed4ebcf934bd7b64911, type: 3}
   - {fileID: 802229826727239995, guid: ec1cd11d322120644bbbe0f330f906e9, type: 3}
-  - {fileID: 802229826727239995, guid: 14a3f7506c9c1ad4ea06d69ae3931b3b, type: 3}
   - {fileID: 802229826727239995, guid: af26d6a0d4788084e8e6daae7195b1fc, type: 3}
   - {fileID: 802229826727239995, guid: 70eaa4891ed6ec74b957931df5cb37c8, type: 3}
-  - {fileID: 802229826727239995, guid: ea1babf57c302c44f99cad4e5e58b90a, type: 3}
+  - {fileID: 802229826727239995, guid: 14a3f7506c9c1ad4ea06d69ae3931b3b, type: 3}
+  - {fileID: 802229826727239995, guid: 67e9f949ba183eb48b0354d54fbcfbf7, type: 3}
   - {fileID: 802229826727239995, guid: b7cc592f949ab504da68066631c840a2, type: 3}
-  - {fileID: 802229826727239995, guid: 949ee23347cae444081be69179b17026, type: 3}
   nextLevelDistance: 11
 --- !u!4 &2020136798
 Transform:

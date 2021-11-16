@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5704182231244108775}
   m_Layer: 0
   m_Name: stone wall (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 802229826727239995}
   m_Layer: 0
   m_Name: D climbtime
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +154,7 @@ Transform:
   - {fileID: 4502078849964117063}
   - {fileID: 3633059541251967524}
   - {fileID: 5911020192686816586}
+  - {fileID: 7458156068847573721}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -182,7 +183,7 @@ GameObject:
   - component: {fileID: 8859726119871961598}
   m_Layer: 0
   m_Name: stone wall (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +241,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -263,7 +264,7 @@ GameObject:
   - component: {fileID: 7366513385140246843}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,7 +310,7 @@ GameObject:
   - component: {fileID: 1812174301745578538}
   m_Layer: 0
   m_Name: stone wall (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -367,7 +368,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -391,7 +392,7 @@ GameObject:
   - component: {fileID: 6635174619719099914}
   m_Layer: 0
   m_Name: stone wall (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -449,7 +450,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -473,7 +474,7 @@ GameObject:
   - component: {fileID: 36331067141962088}
   m_Layer: 0
   m_Name: stone wall
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +532,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -555,7 +556,7 @@ GameObject:
   - component: {fileID: 1092033981994270278}
   m_Layer: 0
   m_Name: stone wall (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -613,7 +614,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -637,7 +638,7 @@ GameObject:
   - component: {fileID: 8393191774628968023}
   m_Layer: 0
   m_Name: stone wall (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,7 +696,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: be39dc827e8273c469beff4fec694860, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
@@ -717,6 +718,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 742c939b9a1ce9f44ad0b6d8c5330414, type: 3}
       propertyPath: m_Name
       value: GroundSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 742c939b9a1ce9f44ad0b6d8c5330414, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8613899480715748749, guid: 742c939b9a1ce9f44ad0b6d8c5330414, type: 3}
       propertyPath: m_RootOrder
@@ -779,6 +784,10 @@ PrefabInstance:
     - target: {fileID: 1706334266394336592, guid: 90ed33b09309cfd419da9cdadcdd3220, type: 3}
       propertyPath: m_Name
       value: Arrowsign prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706334266394336592, guid: 90ed33b09309cfd419da9cdadcdd3220, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4314656555478233728, guid: 90ed33b09309cfd419da9cdadcdd3220, type: 3}
       propertyPath: m_RootOrder
@@ -874,6 +883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 7.6183977
@@ -951,6 +964,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Name
       value: GroundSpriteStone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
@@ -1034,6 +1051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 3.2602859
@@ -1112,6 +1133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 4.7626977
@@ -1166,6 +1191,84 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8613899480715748749, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
   m_PrefabInstance: {fileID: 1770428252830514705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1946550629461278323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 802229826727239994}
+    m_Modifications:
+    - target: {fileID: 6945441079269759625, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_Name
+      value: barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945441079269759625, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.40126202
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.40126202
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.40126202
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.272543
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.6824837
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+--- !u!4 &7458156068847573721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+  m_PrefabInstance: {fileID: 1946550629461278323}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2047923551836447288
 PrefabInstance:
@@ -1322,6 +1425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 6.6863856
@@ -1466,6 +1573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 1.286136
@@ -1551,6 +1662,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Name
       value: GroundSpriteStone (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
@@ -1638,6 +1753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 4.2717085
@@ -1723,6 +1842,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Name
       value: GroundSpriteStone (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
@@ -1810,6 +1933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 4.7768736
@@ -1896,6 +2023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 1.286136
@@ -1978,6 +2109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 11.312847
@@ -2050,7 +2185,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2246971606374622035, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 15.529843
+      value: 7.274972
       objectReference: {fileID: 0}
     - target: {fileID: 2246971606374622035, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
@@ -2060,9 +2195,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
-      value: 15.529843
+      value: 7.274972
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.y
@@ -2078,7 +2217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8613899480715748749, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.768817
+      value: 10.5253
       objectReference: {fileID: 0}
     - target: {fileID: 8613899480715748749, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2141,6 +2280,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Name
       value: GroundSpriteStone (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
@@ -2224,6 +2367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpriteStone
       objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x
       value: 3.0809684
@@ -2238,7 +2385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8613899480715748749, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6933
+      value: 3.64
       objectReference: {fileID: 0}
     - target: {fileID: 8613899480715748749, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2297,6 +2444,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Name
       value: GroundSpriteStone (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 5998e9e35a3c1e347b116e54877566da, type: 3}
       propertyPath: m_Size.x

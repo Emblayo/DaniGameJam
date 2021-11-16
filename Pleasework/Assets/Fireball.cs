@@ -6,8 +6,12 @@ public class Fireball : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Enemy") return;
-        StartCoroutine(delay());
+        if (collision.tag == "Chaser" || collision.tag == "Player" || collision.tag == "Ground")
+        {
+            StartCoroutine(delay());
+        }
+
+        
     }
 
     IEnumerator delay()

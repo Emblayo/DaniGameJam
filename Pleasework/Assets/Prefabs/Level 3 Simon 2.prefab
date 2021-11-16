@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7691449721641402677}
   m_Layer: 0
   m_Name: Wooden Pole (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 802229826727239995}
   m_Layer: 0
   m_Name: Level 3 Simon 2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,6 +163,7 @@ Transform:
   - {fileID: 8144714390421209207}
   - {fileID: 5895228275128605006}
   - {fileID: 2832398458681226292}
+  - {fileID: 4665631991656371505}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -191,7 +192,7 @@ GameObject:
   - component: {fileID: 8198503580580117109}
   m_Layer: 0
   m_Name: large square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +274,7 @@ GameObject:
   - component: {fileID: 6275042782956171580}
   m_Layer: 0
   m_Name: stone ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -356,7 +357,7 @@ GameObject:
   - component: {fileID: 8478525061194331598}
   m_Layer: 0
   m_Name: stone wall
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -463,7 +464,7 @@ GameObject:
   - component: {fileID: 7366513385140246843}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,7 +496,7 @@ GameObject:
   - component: {fileID: 9207422908965845735}
   m_Layer: 0
   m_Name: stone wall side (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,7 +578,7 @@ GameObject:
   - component: {fileID: 2335645534384990180}
   m_Layer: 0
   m_Name: Wooden Pole (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -659,7 +660,7 @@ GameObject:
   - component: {fileID: 3445118435167709154}
   m_Layer: 0
   m_Name: large square (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +742,7 @@ GameObject:
   - component: {fileID: 3009048878457447127}
   m_Layer: 0
   m_Name: large square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -823,7 +824,7 @@ GameObject:
   - component: {fileID: 5274337468290836489}
   m_Layer: 0
   m_Name: stone ground (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -905,7 +906,7 @@ GameObject:
   - component: {fileID: 5171736636875200106}
   m_Layer: 0
   m_Name: large square (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -987,7 +988,7 @@ GameObject:
   - component: {fileID: 7793042719062443017}
   m_Layer: 0
   m_Name: large square (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1070,7 +1071,7 @@ GameObject:
   - component: {fileID: 1846020660658075876}
   m_Layer: 0
   m_Name: stone ground (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1178,7 +1179,7 @@ GameObject:
   - component: {fileID: 3560396466958605843}
   m_Layer: 0
   m_Name: Wooden Pole (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1260,7 +1261,7 @@ GameObject:
   - component: {fileID: 7158742094810188303}
   m_Layer: 0
   m_Name: large square (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1342,7 +1343,7 @@ GameObject:
   - component: {fileID: 5293518122053665199}
   m_Layer: 0
   m_Name: large square (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,7 +1426,7 @@ GameObject:
   - component: {fileID: 8376591096234981419}
   m_Layer: 0
   m_Name: stone wall side (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1533,7 +1534,7 @@ GameObject:
   - component: {fileID: 402464725209017564}
   m_Layer: 0
   m_Name: Wooden Pole
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1615,7 +1616,7 @@ GameObject:
   - component: {fileID: 3497147458699736916}
   m_Layer: 0
   m_Name: stone ground (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1697,7 +1698,7 @@ GameObject:
   - component: {fileID: 89565389236381619}
   m_Layer: 0
   m_Name: Wooden Pole (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1780,7 +1781,7 @@ GameObject:
   - component: {fileID: 7318649890826626066}
   m_Layer: 0
   m_Name: stone wall side
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1890,6 +1891,10 @@ PrefabInstance:
     - target: {fileID: 3981431419774945152, guid: 742c939b9a1ce9f44ad0b6d8c5330414, type: 3}
       propertyPath: m_Name
       value: GroundSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981431419774945152, guid: 742c939b9a1ce9f44ad0b6d8c5330414, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7708101839035780289, guid: 742c939b9a1ce9f44ad0b6d8c5330414, type: 3}
       propertyPath: m_Size.x
@@ -2027,6 +2032,72 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 196297717779890364, guid: 5bff2626d120b3d41a6315410c1dce9c, type: 3}
   m_PrefabInstance: {fileID: 3425631484492737370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4340519537245893019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 802229826727239994}
+    m_Modifications:
+    - target: {fileID: 6945441079269759625, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_Name
+      value: barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945441079269759625, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.029512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1960897
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.9153376
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+--- !u!4 &4665631991656371505 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8972076550015902890, guid: 55cebd14f3b9e4944ba2f3562b023733, type: 3}
+  m_PrefabInstance: {fileID: 4340519537245893019}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5560247246987799070
 PrefabInstance:

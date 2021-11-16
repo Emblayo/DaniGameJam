@@ -9,6 +9,7 @@ TagManager:
   - Chaser
   - ScoreText
   - FireBall
+  - Camera Bounds
   layers:
   - Default
   - TransparentFX
