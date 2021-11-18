@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 545021618}
   - component: {fileID: 545021617}
   - component: {fileID: 545021621}
+  - component: {fileID: 545021622}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -509,6 +510,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalScoreText: {fileID: 1944055926}
+--- !u!114 &545021622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545021616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf08e878fddbdf4492c6069505d3a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &859869443
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,7 +1005,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 545021622}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -1099,7 +1112,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SELECT LEVEL
+  m_text: QUIT GAME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de159e2bde287b34ab310833d3ee9a14, type: 2}
   m_sharedMaterial: {fileID: 3737821187767606541, guid: de159e2bde287b34ab310833d3ee9a14, type: 2}
